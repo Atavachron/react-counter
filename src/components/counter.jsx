@@ -6,22 +6,6 @@ class Counter extends Component {
     value: this.props.counter.value
   };
 
-  // renderTags() {
-  //   if (this.state.tags.length === 0) return <p>There are no tags</p>;
-  //   return (
-  //     <ul>
-  //       {this.state.tags.map(tag => (
-  //         <li key={tag}>{tag}</li>
-  //       ))}
-  //     </ul>
-  //   );
-  // }
-
-  // constructor() {
-  //   super();
-  //   this.handleIncrement = this.handleIncrement.bind(this);
-  // }
-
   handleIncrement = product => {
     console.log(product);
     this.setState({ value: this.state.value + 1 });
